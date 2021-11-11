@@ -32,6 +32,34 @@ spec:
           ui:options:
             allowedKinds: 
               - Group
+        test_entity_picker:
+          title: Test Entity Picker
+          type: string
+          description: Test Entity Picker
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - Component
+            rows: 5
+        test_entity_picker_2:
+          title: Test Entity Picker 2
+          type: string
+          description: Test Entity Picker
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - Template
+            rows: 5
+        test_entity_picker_3:
+          title: Test Entity Picker 3
+          type: string
+          description: Test Entity Picker
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - API
+            rows: 5
+
     - title: Choose a location  
       required:
         - repoUrl
