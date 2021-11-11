@@ -58,6 +58,8 @@ spec:
           ui:options:
             allowedKinds:
               - API
+            allowedTypes:
+              - grpc
             rows: 5
 
     - title: Choose a location  
