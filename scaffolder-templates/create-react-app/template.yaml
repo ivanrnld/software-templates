@@ -88,6 +88,27 @@ spec:
               - 
               - team
             rows: 5
+        test_entity_picker_6:
+          title: Test Entity Picker 6
+          type: string
+          description: Test Entity Picker
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - User
+            rows: 5
+        test_entity_picker_7:
+          title: Test Entity Picker 7
+          type: string
+          description: Test Entity Picker
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - Group
+            allowedTypes:
+              - department
+              - team
+            rows: 5
 
     - title: Choose a location  
       required:
