@@ -75,6 +75,19 @@ spec:
             allowedTypes:
               - grpc
             rows: 5
+        test_entity_picker_5:
+          title: Test Entity Picker 5
+          type: string
+          description: Test Entity Picker
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - User
+              - Group
+            allowedTypes:
+              - 
+              - team
+            rows: 5
 
     - title: Choose a location  
       required:
