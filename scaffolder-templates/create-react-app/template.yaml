@@ -105,9 +105,11 @@ spec:
           ui:options:
             allowedKinds:
               - Group
+              - API
             allowedTypes:
               - department
               - team
+              - grpc
             rows: 5
 
     - title: Choose a location  
